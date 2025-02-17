@@ -30,3 +30,17 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/*espacio alrededor el texto entre la caja*/
+
+a{
+    padding: 10px;
+}
+
+/*Efecto del mouse sobre el icono*/
+
+a:hover{
+    background-color: #2d9ec0;
+    padding: 10px;
+    border-radius: 10px;
+}
