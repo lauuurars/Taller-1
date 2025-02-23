@@ -37,7 +37,7 @@ a{
     padding: 10px;
 }
 
-/*Efecto del mouse sobre el icono*/
+/*Efecto del mouse sobre el icono hover*/
 
 a:hover{
     background-color: #2d9ec0;
@@ -51,9 +51,41 @@ section{
     margin-bottom: 30px;
 }
 
+/*estilo de las imagenes quienes somos*/
 #imagen{
     border-radius:50%;
     width: 200px;
     height: 200px;
+}
+
+.tienda{
+    background-color: #f2ecec;
+    margin: 0px 150px 20px 150px;
+    text-align: center;
+}
+
+.tienda h2{
+    padding: 60px 0 5px 0;
+}
+
+.producto1{
+    padding: 15px;
+    width: 200px;
+}
+
+.producto1 img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+button{
+    background-color: #242697;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
 }
 
