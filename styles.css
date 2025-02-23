@@ -58,14 +58,17 @@ section{
     height: 200px;
 }
 
-.tienda{
+.tienda { /*sección de la tienda*/
     background-color: #f2ecec;
     margin: 0px 150px 20px 150px;
     text-align: center;
+    
 }
 
-.tienda h2{
-    padding: 60px 0 5px 0;
+.productos{
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .producto1{
@@ -86,6 +89,28 @@ button{
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    width: 100px;
+    width: 150px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
 }
 
+.producto2{
+    padding: 15px;
+    width: 200px;
+}
+
+.producto2 img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.producto3{
+    padding: 15px;
+    width: 200px;
+}
+
+.producto3 img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
